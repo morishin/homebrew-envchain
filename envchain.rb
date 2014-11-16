@@ -5,7 +5,7 @@ class Envchain < Formula
 
   homepage "https://github.com/sorah/envchain"
   url "https://github.com/sorah/envchain/archive/v#{VERSION}.tar.gz"
-  sha1 "3c1a87f3337a87213aadce6ba204227d9a6f7084"
+  sha1 "7d100ddbd118475ef094b25da7c361f921764e89"
 
   def install
     system "make", "DESTDIR=#{prefix}", "install"
