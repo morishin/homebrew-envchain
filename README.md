@@ -2,10 +2,12 @@
 
 Unofficial
 
-:pray: https://github.com/Homebrew/homebrew/pull/29611
-
 ## Usage
 
 ```
-$ brew install k0kubun/envchain/envchain
+brew tap morishin/envchain
+cd $(brew --prefix)/Library/Taps/morishin/homebrew-envchain
+git submodule init
+git submodule update
+brew install morishin/envchain/envchain
 ```
